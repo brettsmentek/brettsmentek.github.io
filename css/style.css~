@@ -61,8 +61,10 @@ html, body {
 }
 
 body {
-  background: #16a085;
-  font-family: 'Montserrat', sans-serif;
+  //background: #ace1af;
+  background: #679267;
+  font-family: 'Codystar', cursive;
+  //font-family: 'Montserrat', sans-serif;
   color: #fff;
   line-height: 1.3;
   -webkit-font-smoothing: antialiased;
