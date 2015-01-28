@@ -63,7 +63,8 @@ html, body {
 body {
   //background: #ace1af;
   //background: #679267;
-  background: #009150;
+  //background: #009150;
+  background-image: url("../media/MainBG.jpg");
   font-family: 'Montserrat', sans-serif;
   color: #fff;
   line-height: 1.3;
