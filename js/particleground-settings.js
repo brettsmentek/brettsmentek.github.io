@@ -3,7 +3,7 @@ function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 $(document).ready(function() {
-  $('#particles').particleground({
+  $('.bg-full').particleground({
     //dotColor: '#5cbdaa',
     //lineColor: '#5cbdaa',
     dotColor: '#DDD',

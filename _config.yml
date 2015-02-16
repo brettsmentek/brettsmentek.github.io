@@ -1,0 +1,32 @@
+# Site configuration
+
+title: Brett Smentek
+description: 
+logo: 
+teaser: 
+baseurl: /
+url:
+
+# Jekyll configuration
+
+paginate: 5
+permalink: /:title/
+markdown: kramdown
+highlighter: pygments
+encoding: utf-8
+sass:
+  sass_dir: _sass
+  style: compressed
+
+gems:
+  - jekyll-redirect-from
+
+navigation:
+- title: Home
+  url: /
+- title: About
+  url: /about/
+
+include: ["_pages"]
+
+exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]

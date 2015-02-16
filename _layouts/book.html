@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<header>
+<div class="title-area">
+<h1 class="entry-title">{{ page.headline }}</h1>
+</div>
+</header>
+<div class="section-divider"></div>
+<div id="book-wrapper">
+<article class="book-article book">
+{{ content }}
+{% include page-meta.html %}
+</article>
+{% include book.html %}

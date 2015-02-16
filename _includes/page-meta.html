@@ -1,0 +1,5 @@
+{% if page.date %}<hr>
+<div class="page-meta">
+<p>Published: {{ page.date | date: "%B %d, %Y" }}</p>
+{% if page.modified %}<p>Updated: {{ page.modified | date: "%B %d, %Y" }}</p>{% endif %}
+</div>{% endif %}

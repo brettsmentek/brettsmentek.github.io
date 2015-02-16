@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>Brett Smentek</title>
-<meta name="description" content="">
+<title>{{ page.title }}</title>
+<meta name="description" content="{{ page.excerpt }}">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<link rel="canonical" href="/">
+<link rel="canonical" href="{{ site.url }}{{ page.url }}">
 <!--<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Bitter:400,700|Oswald|Francois+One|PT+Serif:400,700,400italic">-->
 <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Sorts+Mill+Goudy:400,400italic' rel='stylesheet' type='text/css'>
@@ -17,36 +17,9 @@
   <script type='text/javascript' src='js/particleground-settings.js'></script>
 </head>
 <body>
-<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
-<div class="sidebar" id="sidebar">
-
-<nav class="sidebar-nav" role="navigation" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
-<a class="sidebar-nav-item active" href="/">Home</a>
-<a class="sidebar-nav-item" href="/about/">About</a>
-</nav>
-</div>
-
+{% include sidebar.html %}
 <div class="wrap">
-<header>
-  <div class="bg">
-    <div class="bg-full"></div>
-  </div>
-<div class="home-title-area">
-<h1 class="site-title">Brett Smentek</h1>
-<div class="bio-area"><p>Engineer &mdash; New York City</p></div>
-</div>
-</header>
-<div id="page-wrapper">
-<div class="article-list"><div class="wrap">
-<h2 class="list-title fancy"><span>What I'm writing:</span></h2>
-<div class="article-titles">
-<ul class="post-list"> 
-<li><a href="/testing-jekyll/">Testing out Jekyll blogging platform<span class="entry-date">February 15, 2015</span></a></li>
-</ul>
-
-</div>
-</div></div>
-
+{{ content }}
 </div>
 <footer class="site-footer">
 	<p><i class="fa fa-motorcycle fa-2x"></i></p>

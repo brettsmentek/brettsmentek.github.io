@@ -1,0 +1,38 @@
+/* Footer
+   ========================================================================== */
+
+.site-footer {
+  bottom: 0;
+  display: inline-block;
+  width: 100%;
+  background-color: #222;
+  color: #fff;
+  padding: 24px;
+  padding: 1.5rem;
+  font-size: 14px;
+  font-size: .875rem;
+  font-weight: 700;
+  text-align: center;
+}
+@media only screen and (min-width: 38rem) {
+	.site-footer {
+    padding: 14px;
+    padding: .2rem;
+    font-size: 14px;
+    font-size: .7rem;
+	}
+}
+
+.site-footer a {
+  color: #fff;
+  text-decoration: none;	
+}
+
+.site-footer a:hover {
+  color: #0A86BF;
+}
+
+.site-footer p {
+  margin: 0;
+  text-align: center;
+}

@@ -1,0 +1,123 @@
+/* Book Covers
+   ========================================================================== */
+
+#book-wrapper {
+  padding: 0 1.618em;
+  height: 100%;
+  width: 100%;
+  max-width: 52rem;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-overflow-scrolling: touch;
+  -webkit-transform: translate(0, 0);
+     -moz-transform: translate(0, 0);
+      -ms-transform: translate(0, 0);
+       -o-transform: translate(0, 0);
+          transform: translate(0, 0);
+  -webkit-transition: 500ms cubic-bezier(0.645, 0.045, 0.355, 1);
+     -moz-transition: 500ms cubic-bezier(0.645, 0.045, 0.355, 1);
+       -o-transition: 500ms cubic-bezier(0.645, 0.045, 0.355, 1);
+          transition: 500ms cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+@media (min-width: 52rem) {
+  .book {
+    left: 27%;
+  }
+}
+
+@media (min-width: 52rem) {
+  .book-article {
+    width: 73%;
+    float: right;
+    padding: 0 1.5rem;
+  }
+}
+
+@media (min-width: 52rem) {
+  .book-content {
+    right: 73%;
+  }
+}
+
+.book-container {
+  margin-bottom: 3rem;
+}
+@media (min-width: 52rem) {
+  .book-container {
+    width: 27%;
+  }
+}
+
+.book-img {
+  margin-bottom: .6rem;
+  margin-right: 0;
+  text-align: center;
+}
+@media (min-width: 44rem) {
+  .book-img {
+    float: left;
+    margin-bottom: 3rem;
+    margin-right: 1rem;
+  }
+}
+@media (min-width: 52rem) {
+  .book-img {
+    margin-bottom: .6rem;
+    margin-right: 0;
+  }
+}
+
+.book-img img {
+  -webkit-box-shadow: 3px 3px 5px 1px rgba(0,0,0,0.2);
+     -moz-box-shadow: 3px 3px 5px 1px rgba(0,0,0,0.2);
+          box-shadow: 3px 3px 5px 1px rgba(0,0,0,0.2);
+}
+
+.book-info {
+  text-align:center;
+}
+@media (min-width: 44rem) {
+  .book-info {
+    text-align:left;
+  }
+}
+
+.title {
+  font-family: Oswald, sans-serif;
+  font-size: 18px;
+  padding: 0 0 5px 0;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.buy-info {
+  max-width: 300px;
+  text-align: center;
+  border: 1px solid #c1c0aa;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 20px auto;
+  color: #666;
+  display: block;
+}
+@media (min-width: 44rem) {
+  .buy-info {
+    width: 300px;
+    margin-left: 0;
+    margin-right: 0;
+    display: inline-block;
+  }
+}
+@media (min-width: 52rem) {
+  .buy-info {
+    max-width: 300px;
+    width: initial;
+    display: block;
+  }
+}
+
+.buy-info p {
+  border-bottom: 1px solid #c1c0aa;
+  padding-bottom: 8px;
+}

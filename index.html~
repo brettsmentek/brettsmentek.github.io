@@ -1,25 +1,22 @@
-<!doctype html> 
-<html lang="en" class="no-js"> 
-<head> 
-  <meta charset="UTF-8" /> 
-  <title>Brett Smentek's Github Page</title> 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.css" />
-  <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-  <script type='text/javascript' src='js/jquery-1.11.1.min.js'></script>
-  <script type='text/javascript' src='js/jquery.particleground.min.js'></script>
-  <script type='text/javascript' src='js/particleground-settings.js'></script>
-</head> 
+---
+layout: default
+permalink: /
+title: Brett Smentek
+---
 
-<body>
-
-<div id="particles">
-  <div class="intro">
-  <h1> "Brett Smentek</h1>
-  <p>Engineer &mdash; New York City</p>
-  <a href="https://twitter.com/brettsmentek" class="btn">Go to the blog!</a>
+<header>
+  <div class="bg">
+    <div class="bg-full"></div>
   </div>
+<div class="home-title-area">
+<h1 class="site-title">{{ page.title }}</h1>
+<div class="bio-area"><p>Engineer &mdash; New York City</p></div>
 </div>
-
-</body> 
-</html>
+</header>
+<div id="page-wrapper">
+<div class="article-list"><div class="wrap">
+<h2 class="list-title fancy"><span>What I'm writing:</span></h2>
+<div class="article-titles">
+{% include post-list.html %}
+</div>
+</div></div>
