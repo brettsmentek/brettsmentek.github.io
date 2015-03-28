@@ -156,6 +156,12 @@ h2.entry-title a:hover {
 	text-decoration: none;
 }
 
+h5 strong { 
+    display: inline-block;
+    *display: inline;
+    width: 150px
+}
+
 /* Sub-Titles
    ========================================================================== */
 
