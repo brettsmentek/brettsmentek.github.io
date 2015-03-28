@@ -44,10 +44,10 @@
   //width: 100%
 }
 
-@media screen and (max-width: 48em) {
+@media screen and (max-width: 47.99em) {
   .article-titles-mobile {
     display: block;
-    min-width: 21rem;
+    max-width: 21rem;
     margin-right: auto;
     margin-left: auto;
     font-family: 'Raleway', sans-serif;
