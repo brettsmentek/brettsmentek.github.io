@@ -15,6 +15,6 @@ teaser:
 **LinkedIn:** [profile](https://www.linkedin.com/in/brettsmentek)\\
 **GitHub:** [profile](https://github.com/brettsmentek)\\
 **AngelList:** [profile](https://angel.co/smentek)\\
-**Resume:** [download](https://brettsmentek.github.io/media/SmentekResume.pdf)
+**Resume:** [download](https://standardresume.co/BrettSmentek)
 
 I also made a [responsive facade](https://brettsmentek.github.io/media/Light-responsive-facade-prototype.pdf) prototype in college that was pretty neat.
