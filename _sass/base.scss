@@ -50,25 +50,3 @@ a:hover,
 a:focus {
   text-decoration: underline;
 }
-
-/* icons for ebooks */
-
-.pdf, a[href $=".pdf"],
-.epub, a[href $=".epub"],
-.mobi, a[href $=".mobi"],
-.azw, a[href $=".azw"] {
-  //padding-left: 20px;
-  min-height:16px;
-}
-
-.pdf, a[href $=".pdf"] {
-  background: url(/images/document-pdf.png) no-repeat 0 50%;
-}
-
-.epub, a[href $=".epub"] {
-  background: url(/images/document-epub.png) no-repeat 0 50%;
-}
-
-.mobi, .azw, a[href $=".mobi"], a[href $=".azw"] {
-  background: url(/images/document-mobi.png) no-repeat 0 50%;
-}
