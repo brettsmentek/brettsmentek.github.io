@@ -1,9 +1,9 @@
 # Site configuration
 
 title: Brett Smentek
-description: 
-logo: 
-teaser: 
+description:
+logo:
+teaser:
 baseurl: /
 url:
 
@@ -12,7 +12,7 @@ url:
 paginate: 5
 permalink: /:title/
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 encoding: utf-8
 sass:
   sass_dir: _sass
