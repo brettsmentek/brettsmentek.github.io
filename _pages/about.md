@@ -1,7 +1,7 @@
 ---
 layout: noimage
-title: Links to my stuff
-headline: Links to my stuff
+title: About
+headline: About
 permalink: /about/
 modified:
 excerpt: 
@@ -9,12 +9,8 @@ image:
 teaser:
 ---
 
-## Check out my:
-
-**Twitter:** [@brettsmentek](http://twitter.com/brettsmentek)\\
 **LinkedIn:** [profile](https://www.linkedin.com/in/brettsmentek)\\
 **GitHub:** [profile](https://github.com/brettsmentek)\\
-**AngelList:** [profile](https://angel.co/smentek)\\
-**Resume:** [view](https://standardresume.co/BrettSmentek)
+**Resume:** [view](../resume)
 
 I also made a [responsive facade](https://brettsmentek.github.io/media/Light-responsive-facade-prototype.pdf) prototype in college that was pretty neat.
